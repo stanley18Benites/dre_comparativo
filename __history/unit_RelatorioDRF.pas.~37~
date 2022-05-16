@@ -1,0 +1,68 @@
+unit unit_RelatorioDRF;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, RLReport;
+
+type
+  TfrmTelaRelatorio = class(TForm)
+    rpRelatorioDRF: TRLReport;
+    RLBand1: TRLBand;
+    RLBand2: TRLBand;
+    RLBand3: TRLBand;
+    RLPanel1: TRLPanel;
+    RLLabel1: TRLLabel;
+    RLLabel2: TRLLabel;
+    labelPeriodo: TRLLabel;
+    RLSystemInfo1: TRLSystemInfo;
+    RLSystemInfo2: TRLSystemInfo;
+    RLLabel4: TRLLabel;
+    RLLabel5: TRLLabel;
+    RLLabel6: TRLLabel;
+    RLLabel7: TRLLabel;
+    RLLabel8: TRLLabel;
+    RLDBText5: TRLDBText;
+    RLDBText6: TRLDBText;
+    RLGroup1: TRLGroup;
+    RLBand4: TRLBand;
+    dbTipoConta: TRLDBText;
+    RLLabel3: TRLLabel;
+    dbSaldoTipoConta: TRLDBText;
+    dbPorcentagemTipoConta: TRLDBText;
+    RLGroup2: TRLGroup;
+    RLBand5: TRLBand;
+    RLDBText1: TRLDBText;
+    RLDBText2: TRLDBText;
+    RLDBText3: TRLDBText;
+    RLBand6: TRLBand;
+    RLDBText4: TRLDBText;
+    RLDBText7: TRLDBText;
+    RLDBText8: TRLDBText;
+  private
+
+    { Private declarations }
+  public
+    class procedure criarRelatorio(dataini, datafin: TDateTime);
+  end;
+
+var
+  frmTelaRelatorio: TfrmTelaRelatorio;
+
+implementation
+
+{$R *.dfm}
+
+class procedure TfrmTelaRelatorio.criarRelatorio(dataini, datafin : TDateTime);
+var frmTelaRelatorio : TfrmTelaRelatorio;
+  begin
+    try
+      frmTelaRelatorio := TfrmTelaRelatorio.Create(Application);
+      frmTelaRelatorio.labelPeriodo.Caption := DateToStr(dataini) + ' À ' + DateToStr(datafin);
+      frmTelaRelatorio.rpRelatorioDRF.Preview;
+    finally
+      frmTelaRelatorio.Free;
+  end;
+end;
+end.

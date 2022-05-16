@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/02/25 14:19:52.000.191,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/17 14:26:29.000.315,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/17 14:27:35.000.749,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\PROJETO\relatorio_DRF\unit_principal_DRF.pas</Transaction>
+    <Transaction>2022/03/17 14:27:35.000.749,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\PROJETO\relatorio_DRF\unit_principal_DRF.dfm</Transaction>
+    <Transaction>2022/03/17 14:28:02.000.440,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\User\Documents\Embarcadero\Studio\Projects\GEDRF.dproj</Transaction>
+    <Transaction>2022/03/17 14:31:09.000.252,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/17 14:31:59.000.372,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\PROJETO\relatorio_DRF\unit_RelatorioDRF.pas</Transaction>
+    <Transaction>2022/03/17 14:31:59.000.372,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\PROJETO\relatorio_DRF\unit_RelatorioDRF.dfm</Transaction>
+    <Transaction>2022/03/17 15:47:51.000.577,C:\Users\User\Documents\Embarcadero\Studio\Projects\GEDRF.dproj=C:\PROJETO\relatorio_DRF\GEDRFEXECUTAVEL.dproj</Transaction>
+    <Transaction>2022/03/17 16:16:11.000.096,=C:\PROJETO\relatorio_DRF\Unit1.pas</Transaction>
+    <Transaction>2022/03/17 16:17:11.000.611,C:\PROJETO\relatorio_DRF\Unit1.dfm=C:\PROJETO\relatorio_DRF\unit_DataModule_DRF.dfm</Transaction>
+    <Transaction>2022/03/17 16:17:11.000.611,C:\PROJETO\relatorio_DRF\Unit1.pas=C:\PROJETO\relatorio_DRF\unit_DataModule_DRF.pas</Transaction>
+    <Transaction>2022/03/18 08:25:58.000.028,C:\PROJETO\relatorio_DRF\unit_Relatorio_DRF.pas=C:\PROJETO\relatorio_DRF\unit_RelatorioDRF.pas</Transaction>
+    <Transaction>2022/03/18 08:25:58.000.028,C:\PROJETO\relatorio_DRF\unit_Relatorio_DRF.dfm=C:\PROJETO\relatorio_DRF\unit_RelatorioDRF.dfm</Transaction>
+    <Transaction>2022/03/22 10:18:38.000.673,C:\PROJETO\relatorio_DRF\DRE.dproj=C:\PROJETO\relatorio_DRF\GEDRFEXECUTAVEL.dproj</Transaction>
+    <Transaction>2022/04/18 16:18:55.000.846,=C:\PROJETO\relatorio_DRE\Unit1.pas</Transaction>
+    <Transaction>2022/04/18 16:19:09.000.236,C:\PROJETO\relatorio_DRE\Unit1.dfm=C:\PROJETO\relatorio_DRE\unit_nextPage.dfm</Transaction>
+    <Transaction>2022/04/18 16:19:09.000.236,C:\PROJETO\relatorio_DRE\Unit1.pas=C:\PROJETO\relatorio_DRE\unit_nextPage.pas</Transaction>
+  </Transactions>
+</BorlandProject>

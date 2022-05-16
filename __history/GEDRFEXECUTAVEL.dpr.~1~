@@ -1,0 +1,16 @@
+program GEDRFEXECUTAVEL;
+
+uses
+  Vcl.Forms,
+  unit_principal_DRF in 'unit_principal_DRF.pas' {frmTelaInicial_DRF},
+  unit_RelatorioDRF in 'unit_RelatorioDRF.pas' {frmTelaRelatorio};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmTelaInicial_DRF, frmTelaInicial_DRF);
+  Application.CreateForm(TfrmTelaRelatorio, frmTelaRelatorio);
+  Application.Run;
+end.

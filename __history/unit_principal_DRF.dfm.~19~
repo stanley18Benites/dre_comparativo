@@ -1,0 +1,126 @@
+object frmTelaInicial_DRF: TfrmTelaInicial_DRF
+  Left = 0
+  Top = 0
+  Caption = 'DRF'
+  ClientHeight = 335
+  ClientWidth = 693
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btImprimir: TButton
+    Left = 305
+    Top = 242
+    Width = 75
+    Height = 25
+    Caption = 'Imprimir'
+    TabOrder = 2
+    OnClick = btImprimirClick
+  end
+  object GroupBox1: TGroupBox
+    Left = 7
+    Top = 5
+    Width = 186
+    Height = 52
+    Caption = 'Por data de'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    object comboBoxPeriodo: TComboBox
+      Left = 8
+      Top = 17
+      Width = 145
+      Height = 21
+      ItemIndex = 0
+      TabOrder = 0
+      Text = 'Data de pagamento '
+      Items.Strings = (
+        'Data de pagamento '
+        'Data de lan'#231'amento')
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 195
+    Top = 5
+    Width = 185
+    Height = 52
+    Caption = 'Per'#237'odo'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 86
+      Top = 17
+      Width = 14
+      Height = 13
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'A'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      Layout = tlCenter
+    end
+    object dataini: TMaskEdit
+      Left = 8
+      Top = 14
+      Width = 78
+      Height = 21
+      Alignment = taCenter
+      AutoSize = False
+      EditMask = '!99/99/0000;1;_'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      MaxLength = 10
+      ParentFont = False
+      TabOrder = 0
+      Text = '  /  /    '
+    end
+    object datafin: TMaskEdit
+      Left = 101
+      Top = 14
+      Width = 78
+      Height = 21
+      Alignment = taCenter
+      AutoSize = False
+      EditMask = '!99/99/0000;1;_'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      MaxLength = 10
+      ParentFont = False
+      TabOrder = 1
+      Text = '  /  /    '
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 15
+    Top = 63
+    Width = 266
+    Height = 204
+    Caption = 'Agrupar'
+    TabOrder = 3
+  end
+end
